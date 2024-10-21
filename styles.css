@@ -1,0 +1,54 @@
+
+body{
+    margin:    0px 100px 0px 100px;
+    text-align: center;
+    background-color: hsl(0, 0%, 25%);
+}
+
+h1, h3{
+
+    font-family: "Arima", system-ui;
+    font-weight: 00;
+    color: #38de8b;
+}
+h1{
+    font-size: 75px;
+}
+h3{
+    font-size: 50px;
+}
+
+.flex-container, .container-2{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.flex-container{
+    flex-direction: column;   
+}
+
+.container-2{
+    gap: 500px;
+}
+
+img{
+    max-width: 400px;
+    max-height: 400px;
+    border-radius: 10%;
+}
+
+@media (max-width: 648px){
+
+    h1{
+        font-size: 45px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .flex-container, .container-2{
+        gap: 20px;
+    }
+    .container-2{
+        gap: 100px;
+    }
+}
